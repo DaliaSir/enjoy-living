@@ -1,0 +1,550 @@
+/*.ENJOY-Living-1-hex { color: #EEC71A; } --yellow
+.ENJOY-Living-2-hex { color: #EB9278; } --light-brick
+.ENJOY-Living-3-hex { color: #AEAFB3; } --light-gray
+.ENJOY-Living-4-hex { color: #454547; } --dark-gray
+.ENJOY-Living-5-hex { color: #B0E0E6; } --light-blue
+
+
+.ENJOY-Living-1-rgba { color: rgba(238, 199, 26, 1); }
+.ENJOY-Living-2-rgba { color: rgba(232, 157, 147, 1); }
+.ENJOY-Living-3-rgba { color: rgba(174, 175, 179, 1); }
+.ENJOY-Living-4-rgba { color: rgba(69, 69, 71, 1); }
+.ENJOY-Living-5-rgba { color: rgba(176, 224, 230, 1); }*/
+
+/* font-family: "Hind", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+font-family: "Meddon", "Snell Roundhand", cursive;
+font-family: "Roboto Slab", "Cambria", "Times New Roman", serif; */
+
+html,
+body {
+  height: 100%;
+  font-family: "Hind", "Segoe UI", "Helvetica Neue", "Arial", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  color: #454547;
+  background-color: #fffffc;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+}
+
+.banner {
+  background-color: rgba(176, 224, 230, 0.5);
+  min-height: 40px;
+  text-align: center;
+  display: none;
+}
+
+.banner p {
+  padding: 8px 10px;
+}
+
+/*-----------NAV--------------*/
+
+.navbar {
+  border-bottom: 1px solid #aeafb3;
+  padding-bottom: 20px;
+}
+
+.navbar-brand img {
+  max-width: 220px;
+}
+
+.nav-link {
+  margin-right: 5px;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #eec71a;
+}
+
+.nav-sale {
+  color: #eb9278 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #eec71a;
+}
+
+/*----------CAROUSEL----------*/
+
+.carousel-container {
+  padding-bottom: 30px;
+  margin: 20px 0;
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3,
+.carousel-side-txt {
+  background: center / cover no-repeat;
+  height: 360px;
+}
+
+.carousel-item1 {
+  background-image: url("../images/carousel-yellow-kam-idris-unsplash.jpg");
+}
+
+.carousel-item2 {
+  background-image: url("../images/carousel-holidays-hutomo-abrianto-unsplash.jpg");
+}
+.carousel-item3 {
+  background-image: url("../images/carousel-picnic-elena-popova-unsplash.jpg");
+}
+
+.carousel-side-txt {
+  background-image: url("../images/bg-textile.png");
+  padding: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.carousel-side-txt h3 {
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.carousel-side-txt p {
+  font-size: 0.9rem;
+}
+
+.carousel-side-txt .carousel-side-txt-ph {
+  font-family: "Meddon", "Snell Roundhand", "cursive";
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.carousel-side-txt a {
+  padding: 8px 10px;
+  color: #212529;
+  font-size: 1.1rem;
+  background-color: rgba(238, 199, 26, 0.9);
+  font-weight: 500;
+}
+
+.carousel-side-txt a:hover {
+  background-color: transparent;
+}
+
+.txt-body-link {
+  text-align: end;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  width: 200px;
+  height: 40px;
+  transform: skew(-20deg);
+  background-color: rgba(176, 224, 230, 0.8);
+  opacity: 0.7;
+}
+
+/*-----NEW ARRIVALS---*/
+
+.news-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  border-top: 1px solid #aeafb3;
+}
+
+.news-container h2 {
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+.news-container a {
+  text-decoration: underline;
+}
+
+.news-container a:hover {
+  color: #eec71a;
+}
+
+.news-container h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.card1,
+.card2,
+.card3 {
+  background: center / cover no-repeat;
+  height: 300px;
+}
+
+.card1 {
+  background-image: url("../images/news-dinnerware-khloe-arledge-unsplash.jpg");
+}
+.card2 {
+  background-image: url("../images/news-tiles-camille-brodard-unsplash.jpg");
+}
+.card3 {
+  background-image: url("../images/news-linen-loverna-journey-unsplash.jpg");
+}
+
+/*-----SUBSCRIBE-----*/
+
+.subscribe {
+  background: center / cover no-repeat;
+  min-height: 150px;
+  background-image: url("../images/watercolour.jpg");
+  margin: 40px 0 80px 0;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.subscribe h3 {
+  font-family: "Meddon", "Snell Roundhand", "cursive";
+  color: #eb9278;
+  text-shadow: 1px 1px 0px #9e5741;
+}
+
+.subscribe p {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+
+.subscribe input {
+  max-width: 400px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 2px;
+}
+
+.subscribe .btn {
+  background-color: rgba(176, 224, 230, 0.8);
+  transform: skew(-15deg);
+  width: 150px;
+  height: 40px;
+  border-radius: 0;
+  font-weight: 500;
+  color: #454547;
+}
+
+.subscribe button:hover {
+  background-color: rgba(238, 199, 26, 0.9);
+}
+
+/*-----SALE-----*/
+.sale-container {
+  background: left/ cover no-repeat;
+  height: 400px;
+  background-image: url("../images/rug-cat-stephanie-harvey-unsplash.jpg");
+  margin-bottom: 60px;
+}
+
+.sale-container a {
+  text-decoration: none;
+  color: #454547;
+}
+
+.sale-container .card-img-overlay {
+  left: 25%;
+  top: 25px;
+}
+
+.card-sale-text {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border: rgba(176, 224, 230, 0.8) 6px double;
+}
+.card-sale-text:hover {
+  background-color: rgba(238, 199, 26, 0.9);
+  transition: 0.2s;
+}
+
+.card-sale-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+
+.card-sale-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  margin-bottom: 0;
+}
+
+.card-sale-text span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+
+/*---------PRODUCTS-------------*/
+
+.products-cover-container {
+  margin: 20px auto 40px auto;
+  max-width: 1320px;
+}
+.products-cover {
+  background: center / cover no-repeat;
+  height: 500px;
+  background-image: url("../images/products/products-cover.jpg");
+  filter: brightness(0.9);
+}
+
+.card-product-cover-text {
+  background: center / cover no-repeat;
+  min-height: 100px;
+  background-image: url("../images/products/pastel-bg.png");
+  left: 10%;
+  top: 10%;
+  position: absolute;
+  padding: 10px;
+}
+
+.product-cover-tx-container .card-img-overlay {
+  position: relative;
+}
+
+.products-cover .card-title {
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+
+.zen {
+  font-family: "Meddon", "Snell Roundhand", "cursive";
+  font-size: 1.5rem;
+}
+
+.card-product-cover-text p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.products-title h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Roboto Slab", "Cambria", "Times New Roman", serif;
+}
+
+.products-container {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.product {
+  background: center / cover no-repeat;
+  height: 400px;
+}
+
+.product-container {
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+
+.product2-1,
+.product2-2,
+.product2-3,
+.product4-1,
+.product4-2,
+.product4-3,
+.product4-4,
+.product7-1,
+.product7-2 {
+  background: center / cover no-repeat;
+  height: 400px;
+}
+
+.product1 {
+  background-image: url("../images/products/small-plates.jpg");
+}
+.product2-1 {
+  background-image: url("../images/products/pot.jpg");
+}
+.product2-2 {
+  background-image: url("../images/products/pot-2.jpg");
+}
+.product2-3 {
+  background-image: url("../images/products/pot-3.jpg");
+}
+.product3 {
+  background-image: url("../images/products/tea-cups.jpg");
+}
+.product4-2 {
+  background-image: url("../images/products/pillows-zoom.jpg");
+}
+.product4-3 {
+  background-image: url("../images/products/pillow-1.jpg");
+}
+.product4-4 {
+  background-image: url("../images/products/pillow-2.jpg");
+}
+.product4-1 {
+  background-image: url("../images/products/pillows.jpg");
+}
+.product5 {
+  background-image: url("../images/products//salt-pepper.jpg");
+}
+.product6 {
+  background-image: url("../images/products/small-bowls.jpg");
+}
+.product7-1 {
+  background-image: url("../images/products/pineapple-candle.jpg");
+}
+.product7-2 {
+  background-image: url("../images/products/pineapple-candle2.jpg");
+}
+.product8 {
+  background-image: url("../images/products/round-box.jpg");
+}
+
+.card-img-overlay {
+  padding: 0;
+}
+.carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+/*---------FOOTER-------------*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #f0ede6;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 20px 75px;
+}
+
+.footer-company p {
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+
+.footer-icons a {
+  font-size: 1.6rem;
+  color: #454547;
+}
+
+.footer-icons i {
+  padding: 10px 20px 10px 0;
+  cursor: pointer;
+}
+
+.footer-copy {
+  border-top: 1px solid #aeafb3;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #454547;
+  font-size: 1rem;
+}
+
+.footer-links a:hover,
+.footer-icons i:hover {
+  color: #eec71a;
+}
+
+.chat {
+  margin: 0 auto;
+}
+
+.chat img:hover {
+  background-color: #eec71a;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/*------MEDIA-----*/
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    display: block;
+  }
+
+  .navbar-brand img {
+    max-width: 350px;
+  }
+
+  .carousel-item1,
+  .carousel-item2,
+  .carousel-item3,
+  .carousel-side-txt {
+    height: 460px;
+  }
+
+  .carousel-side-txt {
+    margin-top: 0;
+  }
+
+  .carousel-side-txt a {
+    font-size: 1.2rem;
+  }
+
+  .carousel-side-txt-body h3 {
+    margin-bottom: 10px;
+  }
+
+  .news-container h2 {
+    margin: 20px auto 40px auto;
+  }
+
+  .sale-container {
+    background: center / cover no-repeat;
+    height: 400px;
+    background-image: url("../images/rug-cat-stephanie-harvey-unsplash.jpg");
+    margin-bottom: 60px;
+  }
+
+  .sale-container .card-img-overlay {
+    left: 45%;
+  }
+}
+
+@media only screen and (min-width: 1006px) {
+  .carousel-side-txt-body h3 {
+    margin-bottom: 30px;
+  }
+
+  .carousel-side-txt-body p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-side-txt .carousel-side-txt-ph {
+    font-size: 1.2rem;
+  }
+}
